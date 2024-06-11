@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+body {
+    background-color: #F9F9F9;
+    font-family: "Cairo", sans-serif;
+}
+
+.prayer-timings {
+    width: 738px;
+    margin: auto;
+    overflow: hidden;
+}
+@media(max-width: 767px) {
+    html {
+        width: 738px;
+    }
+    .prayer-timings {
+        width: 100%;
+        overflow-x: scroll;
+    }
+}
+.prayer-timings select {
+    text-align: right;
+    font-size: 16px;
+    float: right;
+    width: 150px;
+}
+.prayer-timings h1 {
+    color: #787878;
+    text-align: center;
+}
+.prayer-timings table {
+    background-color: #FFF;
+    text-align: right;
+    width: 100%;
+    padding: 50px;
+    border-top: 3px solid #787878;
+}
+.prayer-timings table tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+.prayer-timings table td {
+    padding: 20px 15px;
+    width: 50px;
+}
+.prayer-timings table tr:first-of-type,
+.prayer-timings table tr td:last-of-type {
+    color: #0096ff;
+    font-weight: bold;
+}
